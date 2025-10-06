@@ -26,7 +26,7 @@ class UsersTable
                     ->dateTime()
                     ->sortable(),
                 ToggleColumn::make('is_admin'),
-                CheckboxColumn::make('is_active'),
+                CheckboxColumn::make('is_active'), // It doesn't work as expected
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
